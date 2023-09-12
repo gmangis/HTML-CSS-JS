@@ -8,7 +8,6 @@ fs.readFile('./docs/blog.txt', (err, data) => {
   console.log(data.toString());
 });
 
-// console.log('last line');
 
 // writing files
 fs.writeFile('./docs/blog.txt', 'hello, world', () => {
